@@ -11,7 +11,7 @@ public class AlwaysFrontCounter extends JFrame {
     private int counter = 0;
 
     public AlwaysFrontCounter() {
-        setTitle("Yapışkan Notlar");
+        setTitle("Sayaç");
         setSize(300, 200);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
