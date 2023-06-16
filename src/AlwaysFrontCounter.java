@@ -15,6 +15,7 @@ public class AlwaysFrontCounter extends JFrame {
         setSize(300, 200);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
+        //optional
         setAlwaysOnTop(true);
 
         counterLabel = new JLabel(String.valueOf(counter));
